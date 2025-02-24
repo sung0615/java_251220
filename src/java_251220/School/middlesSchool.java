@@ -1,4 +1,4 @@
-package java_251220.ch04.thisd;
+package java_251220.School;
 
 public class middlesSchool implements school {
 
