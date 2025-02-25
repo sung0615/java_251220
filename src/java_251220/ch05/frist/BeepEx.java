@@ -9,25 +9,25 @@ public class BeepEx {
 		Toolkit toolkit = Toolkit.getDefaultToolkit();
 		
 		
-		for (int i = 0; i <5; i++) {
-			toolkit.beep();
-			try {
-				Thread.sleep(500);
-			} catch (InterruptedException e) {
-				
-				e.printStackTrace();
-			}
-		}
-		
-		for (int i = 0; i <5; i++) {
-			System.out.println("12");
-			try {
-				Thread.sleep(500);
-			} catch (InterruptedException e) {
-				
-				e.printStackTrace();
-			}
-		}
+//		for (int i = 0; i <5; i++) {
+//			toolkit.beep();
+//			try {
+//				Thread.sleep(500);
+//			} catch (InterruptedException e) {
+//				
+//				e.printStackTrace();
+//			}
+//		}
+//		
+//		for (int i = 0; i <5; i++) {
+//			System.out.println("12");
+//			try {
+//				Thread.sleep(500);
+//			} catch (InterruptedException e) {
+//				
+//				e.printStackTrace();
+//			}
+//		}
 		// 번갈아가면서
 		for (int i = 0; i <5; i++) {
 			System.out.println("12");
@@ -35,7 +35,7 @@ public class BeepEx {
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}
 		}
